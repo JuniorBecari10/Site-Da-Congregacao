@@ -101,13 +101,39 @@ ul.btns a:hover {
     padding: 10px;
     
     float: right;
-    
-    height: 25px;
+    height: 45px;
     
     font-size: 11px;
     font-weight: bold;
     
     color: #033D60;
     
+    position: relative;
+    
+    top: -47px;
+    
     background-color: #D4D9E2;
+}
+
+.ministerio i, p {
+    transform: translateY(50%);
+}
+
+.ministerio p {
+    display: inline-block;
+    
+    margin-left: 5px;
+    
+    transform: translateY(45%);
+}
+
+.ministerio p:hover + .ministerio i:hover {
+    text-decoration: underline;
+    color: #D4D9E2;
+}
+
+.ministerio:hover {
+    background-color: #033D60;
+    
+    color: #D4D9E2;
 }
